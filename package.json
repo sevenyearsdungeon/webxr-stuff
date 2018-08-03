@@ -1,0 +1,16 @@
+{
+  "name": "webxr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "opn HIRO.jpg && http-server -c0 --ssl --key ssl/key.pem --cert ssl/cert.pem",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "opn-cli": "^3.1.0"
+  }
+}
